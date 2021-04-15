@@ -41,7 +41,6 @@ void successor(tree *root, int data) {
     return;
   }
   successor(root->right, data);
-
 }
 
 int main() {
