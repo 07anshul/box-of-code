@@ -23,7 +23,7 @@ int linear_fun(int A[], int n) {
 }
 
 int main() {
-  int A[] = {-2, -3, 4, -1, -23, 1, 5, -3};
+  int A[] = {-1, -2};
   int n = sizeof(A)/sizeof(A[0]);
 
   int max_sub = linear_fun(A, n);

@@ -32,18 +32,18 @@ bool final(tree *root) {
 
 int main() {
   tree *root = nullptr;
-  root = new tree(20);
-  root->left = new tree(17);
-  root->right = new tree(30);
-  root->left->left = new tree(17);
+  root = new tree(30);
+  root->left = new tree(14);
+  root->right = new tree(32);
+  root->left->left = new tree(13);
   root->left->right = new tree(18);
-  root->right->left = new tree(25);
-  root->right->right = new tree(37);
-  root->left->left->left = new tree(10);
-  root->left->right->left = new tree(18);
-  root->left->right->right = new tree(19);
-  root->right->left->right = new tree(29);
-  root->right->right->right = new tree(43);
+  root->right->left = new tree(31);
+  root->right->right = new tree(35);
+  root->left->right->left = new tree(15);
+  root->left->right->right = new tree(22);
+  root->right->right->left = new tree(34);
+  root->right->right->right = new tree(40);
+  root->left->right->right->left = new tree(19);
 
   if (final(root)) {
     cout << "yes\n";

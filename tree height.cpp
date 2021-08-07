@@ -34,6 +34,8 @@ int main()
   root->right = new tree(3);
   root->left->left = new tree(4);
   root->left->right = new tree(5);
+  root->left->right->right = new tree(3);
+  root->left->right->right->right = new tree(23);
 
   cout << height(root);
 }
