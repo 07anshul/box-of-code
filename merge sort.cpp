@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void merge(int S[], int L[], int R[], int n1, int n2) {
+void merge(int S[], int L[], int R[], int n1, int n2) { // merging
 
   int i = 0;
   int j = 0;
@@ -39,7 +39,7 @@ void merge(int S[], int L[], int R[], int n1, int n2) {
   cout << "\n";
 }
 
-void merge_sort(int S[], int n) {
+void merge_sort(int S[], int n) { // divide
   if (n < 2) {
     return;
   }
